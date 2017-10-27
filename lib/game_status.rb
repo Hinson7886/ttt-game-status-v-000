@@ -10,6 +10,8 @@ def won?(board)
 
     if board[condition[0]] == "X" && board[condition[1]] == "X" && board[condition[2]] == "X"
       return condition
+    else board[condition[0]] == "X" && board[condition[3]] == "X" && board[condition[6]] == "X"
+      return condition
     end
   end
   return false
