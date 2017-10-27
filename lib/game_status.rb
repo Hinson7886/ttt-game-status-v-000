@@ -12,7 +12,7 @@ def won?(board)
       return condition
     elsif board[condition[0]] == "X" && board[condition[3]] == "X" && board[condition[6]] == "X"
       return condition
-      
+
     end
   end
   return false
